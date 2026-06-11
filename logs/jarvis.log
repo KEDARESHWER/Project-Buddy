@@ -1,0 +1,430 @@
+[2m2026-06-10T11:30:55.374550Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:30:55.793026Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:30:55.808735Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+[2m2026-06-10T11:31:20.921522Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:31:21.071826Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:31:21.072825Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:31:21.900924Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:31:29.761301Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35ma3253864-0d31-4add-a398-25821c94d076[0m [36mpreview[0m=[35mhi[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:31:33.397185Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:31:33.402489Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m284[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:31:45.401481Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m98326d72-11b3-4b26-915b-a46525dfb408[0m [36mpreview[0m=[35mhi[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:31:48.958572Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:31:48.962567Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m406[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:32:05.081274Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m21c63d70-1db2-46e1-9499-7c8b3cffcc26[0m [36mpreview[0m=[35mopen chrome[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 2, updating n_results = 2
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:32:08.886722Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:32:08.889723Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m537[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:32:31.249165Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m38fb555c-84e3-423f-b21d-b310b43193ca[0m [36mpreview[0m=[35msearch for github[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 3, updating n_results = 3
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:32:35.063149Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:32:35.066238Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m674[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:33:04.615990Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35mfbf27789-11c6-49e1-83b2-fff576c79652[0m [36mpreview[0m=[35mi want to know what is github[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 4, updating n_results = 4
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:33:08.698577Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:33:08.701941Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m823[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:33:40.967484Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35mb5ab32ee-e2fa-41db-ae39-e56db0fe7efd[0m [36mpreview[0m=[35mcould you create a github account for me[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:33:45.258892Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:33:45.261903Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m852[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:34:04.553822Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m94cee6f0-8a52-4726-9a81-57876e894204[0m [36mpreview[0m=[35mexit[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:34:08.384283Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:34:08.389288Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m828[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:42:33.485334Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:42:33.637532Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:42:33.640539Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T11:42:37.179577Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:42:37.241897Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:42:37.242897Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:42:38.083001Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:42:42.318414Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m52afb925-4228-490a-964c-9879169a74d5[0m [36mpreview[0m=[35mWrite a Python script that calculates the first 15 numbers of the Fibonacci sequ[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:42:42.368575Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:42:42.371575Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m934[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:48:29.342119Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:48:29.496910Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:48:29.499290Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T11:48:33.515217Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:48:33.743175Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:48:33.744164Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:48:34.943590Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:48:54.989358Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m2ba9d5c8-746a-4647-8b9b-8b45f271946f[0m [36mpreview[0m=[35mopen github[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:48:59.192821Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:48:59.195827Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m862[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:49:43.964939Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m7df78f88-966e-47cb-bb5f-97a7eda97f2d[0m [36mpreview[0m=[35mwrite a python script that prints hello world[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:49:43.997934Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:49:44.000934Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m913[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:52:57.928416Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:52:58.059966Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:52:58.061926Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T11:53:01.613869Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:53:01.684527Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:53:01.684527Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:53:02.960255Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:53:30.131787Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35mda5869aa-23aa-46f5-aa75-b0c868d597ad[0m [36mpreview[0m=[35mWrite a python script that uses requests and beautifulsoup4 to scrape the top tr[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:53:30.194873Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:53:30.198872Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1035[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:54:29.517911Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:54:29.651927Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:54:29.654432Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T11:54:33.233933Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:54:33.311559Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:54:33.311559Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:54:34.735746Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:54:37.420387Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m19acfaee-f1b0-480a-85b9-121c5877d68a[0m [36mpreview[0m=[35mWrite a python script that generates a random dataset of 50 points, calculates t[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:54:37.487030Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:54:37.492035Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1167[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T11:57:46.331034Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:57:46.467538Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:57:46.469818Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T11:57:50.126161Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T11:57:50.199136Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T11:57:50.199136Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T11:57:51.331578Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T11:57:54.491678Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m3107b889-f6e2-4d6a-9a98-56703458a311[0m [36mpreview[0m=[35mWrite a python script that generates a random dataset of 50 points, calculates t[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:57:54.546675Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T11:57:54.550678Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1167[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:01:15.795910Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m291ccb2a-670d-463e-a255-b405f1783a5e[0m [36mpreview[0m=[35mWrite a python script that uses requests and beautifulsoup4 to scrape the top tr[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:01:15.834416Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:01:15.837418Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1110[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Retrying request to /chat/completions in 0.489775 seconds
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:10:29.410569Z[0m [[32m[1minfo     [0m] [1mInitialising ChromaDB         [0m [[0m[1m[34mmemory.memory[0m][0m [36mpersist_dir[0m=[35mdata\chroma[0m
+Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:10:29.544340Z[0m [[32m[1minfo     [0m] [1mChromaDB client ready         [0m [[0m[1m[34mmemory.memory[0m][0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:10:29.547353Z[0m [[32m[1minfo     [0m] [1mLoading embedding model       [0m [[0m[1m[34mmemory.memory[0m][0m [36mmodel[0m=[35mall-MiniLM-L6-v2[0m
+Use pytorch device_name: cpu
+Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[2m2026-06-10T12:10:33.116801Z[0m [[32m[1minfo     [0m] [1mEmbedding model loaded        [0m [[0m[1m[34mmemory.memory[0m][0m
+[2m2026-06-10T12:10:33.189452Z[0m [[32m[1minfo     [0m] [1mAvailability updated          [0m [[0m[1m[34mmemory.memory[0m][0m [36mreason[0m=[35mJust started Jarvis[0m [36mstatus[0m=[35mavailable[0m
+[2m2026-06-10T12:10:33.190452Z[0m [[32m[1minfo     [0m] [1mInitialising Orchestrator     [0m [[0m[1m[34m__main__[0m][0m
+[2m2026-06-10T12:10:34.323111Z[0m [[32m[1minfo     [0m] [1mOrchestrator ready            [0m [[0m[1m[34m__main__[0m][0m [36magents[0m=[35m[<AgentName.COMMUNICATION: 'communication_agent'>, <AgentName.CODER: 'coder_agent'>, <AgentName.MEMORY_MANAGER: 'memory_manager'>][0m
+[2m2026-06-10T12:10:37.432608Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m907d1c35-a146-4bd5-a1c4-6401d43d0d11[0m [36mpreview[0m=[35mWrite a python script that uses requests and beautifulsoup4 to scrape the top tr[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:10:37.495607Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:10:37.500116Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1211[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:11:56.510795Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35mf465a6b6-bc80-4617-be16-7bec9e07b1ca[0m [36mpreview[0m=[35mWrite a python script that generates a random dataset of 50 points, calculates t[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:11:56.544616Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:11:56.547991Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1415[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:13:32.273070Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35mbd525c6f-7530-4e49-92c0-8ef9ef97326c[0m [36mpreview[0m=[35mWrite a python script that generates a random dataset of 50 points, calculates t[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:13:32.312065Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:13:32.315065Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1490[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:14.069837Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m308aa0e4-0ac8-472e-a160-bec8da21ab0d[0m [36mpreview[0m=[35mWrite a python script that uses requests and beautifulsoup4 to scrape the top tr[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:14.099878Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:14.104386Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1283[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:35.862914Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35maacea41d-baf0-451b-9ea9-e40c24917569[0m [36mpreview[0m=[35mThe previous script printed nothing because there are no "repo-link" classes on [0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:35.912807Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:15:35.915807Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1411[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:20:10.283726Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m4e81db61-a940-4b0e-adc2-a7565a17435b[0m [36mpreview[0m=[35mThe previous script printed nothing because there are no "repo-link" classes on [0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:20:10.320729Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcoder_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:20:10.323730Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1506[0m [36mtarget[0m=[35mcoder_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:20:58.980514Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m64224d96-4773-4145-9418-80a39da2d79d[0m [36mpreview[0m=[35mname some best porn sites that stream telugu porn videos.[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T12:21:02.788866Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:21:02.792256Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1369[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:26:25.901454Z[0m [[32m[1minfo     [0m] [1mHandling message              [0m [[0m[1m[34m__main__[0m][0m [36mchannel[0m=[35mterminal[0m [36mmsg_id[0m=[35m0a26793b-d8e8-4636-8799-99a1fb150d1a[0m [36mpreview[0m=[35mProvide a text-only list of popular Telugu porn websites. Do NOT open a browser.[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+[2m2026-06-10T12:26:29.882473Z[0m [[32m[1minfo     [0m] [1mIntent classified             [0m [[0m[1m[34m__main__[0m][0m [36mtarget[0m=[35mcommunication_agent[0m
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+[2m2026-06-10T12:26:29.886499Z[0m [[32m[1minfo     [0m] [1mDelegating to sub-agent       [0m [[0m[1m[34m__main__[0m][0m [36mprompt_chars[0m=[35m1317[0m [36mtarget[0m=[35mcommunication_agent[0m
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+HTTP Request: POST http://localhost:1234/v1/chat/completions "HTTP/1.1 200 OK"
+Model llama-3.2-3b-instruct-abliterated is not found. The cost will be 0. In your config_list, add field {"price" : [prompt_price_per_1k, completion_token_price_per_1k]} for customized pricing.
+Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given

@@ -1,0 +1,72 @@
+# ============================================================
+# Project Jarvis — requirements.txt
+# Python 3.11+
+# Pin major versions; allow patch updates for security fixes.
+# ============================================================
+
+# ── Agent Framework ─────────────────────────────────────────
+# AutoGen: Microsoft's robust multi-agent conversation framework.
+# Chosen over LangChain for its native agent-to-agent messaging,
+# built-in code execution loop, and cleaner async support.
+pyautogen==0.2.35
+
+# LangChain kept as a utility layer for chains, prompts, and
+# document loaders — not for agent routing.
+langchain==0.2.16
+langchain-community==0.2.17
+langchain-core==0.2.40
+
+# ── LLM Provider ────────────────────────────────────────────
+# Anthropic SDK (Claude as the backbone LLM)
+anthropic==0.34.2
+
+# OpenAI SDK — AutoGen uses the OpenAI-compatible chat format;
+# point it at Anthropic via a proxy or keep for fallback.
+openai==1.51.0
+
+# ── Vector Memory (ChromaDB) ─────────────────────────────────
+chromadb==0.5.15
+# Embedding model running locally (no API calls needed)
+sentence-transformers==3.1.1
+# ChromaDB uses this for local persistence
+sqlite-utils==3.37
+
+# ── Communication Integrations ───────────────────────────────
+# Gmail API
+google-api-python-client==2.149.0
+google-auth==2.35.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# Twilio (WhatsApp webhooks + outbound messaging)
+twilio==9.3.4
+
+# ── Web / Webhook Server ─────────────────────────────────────
+# FastAPI powers the webhook receiver for WhatsApp callbacks
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+httpx==0.27.2          # Async HTTP client used inside agents
+
+# ── Safe Code Execution (Docker Sandbox) ────────────────────
+docker==7.1.0          # Docker SDK for Python
+
+# ── Task Queue & Async ───────────────────────────────────────
+celery==5.4.0          # Background tasks (e.g., polling email)
+redis==5.1.1           # Celery broker / result backend
+
+# ── Data & Utilities ─────────────────────────────────────────
+pydantic==2.9.2        # Data validation for agent message schemas
+pydantic-settings==2.5.2  # Settings management via .env
+python-dotenv==1.0.1   # Load .env into os.environ
+tenacity==8.5.0        # Retry logic with exponential back-off
+structlog==24.4.0      # Structured, JSON-friendly logging
+rich==13.9.2           # Pretty terminal output / progress bars
+
+# ── Scheduling ───────────────────────────────────────────────
+apscheduler==3.10.4    # Cron-like scheduler for periodic email polls
+
+# ── Testing ──────────────────────────────────────────────────
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-mock==3.14.0
+respx==0.21.1          # Mock httpx requests in tests
