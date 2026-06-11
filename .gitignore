@@ -24,3 +24,6 @@ workspace/
 .env
 .env.local
 config.json
+# Logs
+logs/
+*.log
