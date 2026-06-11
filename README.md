@@ -1,4 +1,4 @@
-# Project Jarvis 🤖
+# Project Buddy 🤖
 
 A highly autonomous, multi-agent personal assistant running locally.
 
@@ -38,7 +38,7 @@ jarvis/
 
 ```bash
 # 1. Clone and enter the project
-cd jarvis
+cd Buddy
 
 # 2. Create a virtual environment
 python3.11 -m venv .venv
